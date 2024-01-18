@@ -62,6 +62,8 @@ return require('packer').startup(function(use)
   use "dcampos/nvim-snippy"
   use "rafamadriz/friendly-snippets"
   use 'honza/vim-snippets'
+  use 'matveyt/neoclip'
+  use 'm4xshen/autoclose.nvim'
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if packer_bootstrap then

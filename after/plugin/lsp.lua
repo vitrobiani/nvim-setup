@@ -38,7 +38,8 @@ cmp.setup({
     { name = 'vsnip' },
     {name = 'tsnip' },
     { name = 'luasnip' },
-    {name = 'snippy'}
+    {name = 'snippy'},
+    {name = 'neoclips'}
   },
   snippet = {
    expand = function(args)
@@ -50,8 +51,7 @@ cmp.setup({
     ['<C-p>'] = cmp.mapping.select_prev_item(cmp_select),
     ['<C-n>'] = cmp.mapping.select_next_item(cmp_select),
     ['<enter>'] = cmp.mapping.confirm({ select = true }),
-    ['<C-e>'] = cmp.mapping.abort(),
-    ['<C-Space>'] = cmp.mapping.complete(),
+    ['<C-z>'] = cmp.mapping.abort(),
   }),
 })
 
