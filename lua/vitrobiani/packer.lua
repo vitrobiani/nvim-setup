@@ -64,6 +64,9 @@ return require('packer').startup(function(use)
   use 'honza/vim-snippets'
   use 'matveyt/neoclip'
   use 'm4xshen/autoclose.nvim'
+  use 'preservim/nerdtree'
+  use 'christoomey/vim-tmux-navigator'
+  use 'sakhnik/nvim-gdb'
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if packer_bootstrap then
