@@ -89,11 +89,6 @@ _G.packer_plugins = {
     path = "/home/vitrobiani/.local/share/nvim/site/pack/packer/start/cmp-buffer",
     url = "https://github.com/hrsh7th/cmp-buffer"
   },
-  ["cmp-cmdline"] = {
-    loaded = true,
-    path = "/home/vitrobiani/.local/share/nvim/site/pack/packer/start/cmp-cmdline",
-    url = "https://github.com/hrsh7th/cmp-cmdline"
-  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/vitrobiani/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -119,6 +114,11 @@ _G.packer_plugins = {
     path = "/home/vitrobiani/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["codeium.vim"] = {
+    loaded = true,
+    path = "/home/vitrobiani/.local/share/nvim/site/pack/packer/start/codeium.vim",
+    url = "https://github.com/Exafunction/codeium.vim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/vitrobiani/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -133,6 +133,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/vitrobiani/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["marks.nvim"] = {
+    loaded = true,
+    path = "/home/vitrobiani/.local/share/nvim/site/pack/packer/start/marks.nvim",
+    url = "https://github.com/chentoast/marks.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
@@ -159,10 +164,20 @@ _G.packer_plugins = {
     path = "/home/vitrobiani/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "/home/vitrobiani/.local/share/nvim/site/pack/packer/start/nvim-dap",
+    url = "https://github.com/mfussenegger/nvim-dap"
+  },
   ["nvim-gdb"] = {
     loaded = true,
     path = "/home/vitrobiani/.local/share/nvim/site/pack/packer/start/nvim-gdb",
     url = "https://github.com/sakhnik/nvim-gdb"
+  },
+  ["nvim-jdtls"] = {
+    loaded = true,
+    path = "/home/vitrobiani/.local/share/nvim/site/pack/packer/start/nvim-jdtls",
+    url = "https://github.com/mfussenegger/nvim-jdtls"
   },
   ["nvim-lspconfig"] = {
     loaded = true,

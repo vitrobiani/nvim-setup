@@ -56,7 +56,6 @@ return require('packer').startup(function(use)
   use 'saadparwaiz1/cmp_luasnip'
   use 'hrsh7th/cmp-buffer'
   use 'hrsh7th/cmp-path'
-  use 'hrsh7th/cmp-cmdline'
   use 'hrsh7th/nvim-cmp'
   use 'dcampos/cmp-snippy'
   use "dcampos/nvim-snippy"
@@ -67,9 +66,14 @@ return require('packer').startup(function(use)
   use 'preservim/nerdtree'
   use 'christoomey/vim-tmux-navigator'
   use 'sakhnik/nvim-gdb'
+  use 'chentoast/marks.nvim'
+  use 'mfussenegger/nvim-jdtls'
+  use 'mfussenegger/nvim-dap'
+  use 'Exafunction/codeium.vim'
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if packer_bootstrap then
     require('packer').sync()
   end
 end)
+

@@ -1,24 +1,19 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.NERDTreeExplore)
 vim.keymap.set("n", "<leader>t", vim.cmd.terminal)
+vim.keymap.set('i', '<M-e>', vim.cmd.CodeiumToggle)
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 vim.keymap.set("v", "C-/", ':s/^/#/<CR>:nohl<CR>')
 
+vim.keymap.set("n", ';', 'g_')
 vim.keymap.set("n", "J", "mzJ`z")
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
-
-vim.keymap.set("n", "<leader>vwm", function()
-    require("vim-with-me").StartVimWithMe()
-end)
-vim.keymap.set("n", "<leader>svwm", function()
-    require("vim-with-me").StopVimWithMe()
-end)
 
 -- greatest remap ever
 vim.keymap.set("x", "<leader>p", [["_dP]])
