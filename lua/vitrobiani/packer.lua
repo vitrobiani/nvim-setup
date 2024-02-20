@@ -69,7 +69,10 @@ return require('packer').startup(function(use)
   use 'chentoast/marks.nvim'
   use 'mfussenegger/nvim-jdtls'
   use 'mfussenegger/nvim-dap'
+  use 'rcarriga/nvim-dap-ui'
+  use 'rcarriga/cmp-dap'
   use 'Exafunction/codeium.vim'
+  use 'theprimeagen/harpoon'
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if packer_bootstrap then
